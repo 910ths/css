@@ -202,6 +202,28 @@ Use `0` instead of `none` to specify that a style has no border.
   border: 0;
 }
 ```
+
+### Use shorthands
+
+**Bad**
+
+```css
+.foo {
+  margin-bottom: 3em;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+```
+
+**Good**
+```css
+.foo {
+    margin: 2em 0 3em 2em;
+}
+```
+
+
+
 **[⬆ back to top](#table-of-contents)**
 
 ## Sass
