@@ -22,7 +22,6 @@
     - [Mixins](#mixins)
     - [Extend directive](#extend-directive)
     - [Nested selectors](#nested-selectors)
-1. [Translation](#translation)
 
 ## Terminology
 
@@ -166,6 +165,9 @@ function ListingCard() {
   * `.ListingCard` is the “block” and represents the higher-level component
   * `.ListingCard__title` is an “element” and represents a descendant of `.ListingCard` that helps compose the block as a whole.
   * `.ListingCard--featured` is a “modifier” and represents a different state or variation on the `.ListingCard` block.
+
+### Table of Content
+TODO
 
 ### ID selectors
 
