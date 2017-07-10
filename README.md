@@ -1,4 +1,4 @@
-# Airbnb CSS / Sass Styleguide
+# 910ths CSS / Sass Styleguide
 
 *A mostly reasonable approach to CSS and Sass*
 
@@ -224,8 +224,25 @@ Use `0` instead of `none` to specify that a style has no border.
       // ...
     }
     ```
+    
+2. Order property declarations alphabetically
 
-2. `@include` declarations
+    Keep it simple, order declarations alphabetically.
+    
+    ```
+    bar {
+    background: #000;
+    color: #fff;
+    font-family: fantasy;
+    font-size: 1.5em;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    }
+
+3. `@include` declarations
 
     Grouping `@include`s at the end makes it easier to read the entire selector.
 
@@ -238,7 +255,7 @@ Use `0` instead of `none` to specify that a style has no border.
     }
     ```
 
-3. Nested selectors
+4. Nested selectors
 
     Nested selectors, _if necessary_, go last, and nothing goes after them. Add whitespace between your rule declarations and nested selectors, as well as between adjacent nested selectors. Apply the same guidelines as above to your nested selectors.
 
